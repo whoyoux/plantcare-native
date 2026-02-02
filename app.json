@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "plantcare-native",
-    "slug": "plantcare-native",
+    "name": "plantcare",
+    "slug": "plantcare",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "plantcarenative",
+    "scheme": "plantcare",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
@@ -18,7 +18,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.whoyoux.plantcare"
     },
     "web": {
       "output": "static",
@@ -29,17 +30,37 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#0F0F0F",
           "android": {
             "image": "./assets/images/splash-icon.png",
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/inter/Inter-Regular.ttf",
+            "./assets/fonts/inter/Inter-Italic.ttf",
+            "./assets/fonts/inter/Inter-Medium.ttf",
+            "./assets/fonts/inter/Inter-SemiBold.ttf",
+            "./assets/fonts/inter/Inter-Bold.ttf"
+          ]
+        }
+      ],
+      "@rnrepo/expo-config-plugin"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "464b6483-392e-442c-8e66-06c0c0153c01"
+      }
+    },
+    "owner": "whoyoux"
   }
 }
