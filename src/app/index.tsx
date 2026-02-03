@@ -1,10 +1,11 @@
 import { colors } from "@/constants/colors";
 import { theme } from "@/constants/theme";
 import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Text style={theme.headings.h1}>Title</Text>
       <Text style={theme.headings.h2}>Subtitle</Text>
       <Text style={theme.headings.h3}>Subsubtitle</Text>
@@ -12,7 +13,7 @@ export default function Index() {
       <View style={styles.card}>
         <Text style={theme.headings.default}>card test</Text>
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
 
@@ -20,6 +21,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     gap: 8,
+    paddingHorizontal: 16,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: colors.background
