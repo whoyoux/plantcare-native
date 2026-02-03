@@ -16,6 +16,7 @@
         "expo-font": "~55.0.2",
         "expo-glass-effect": "~55.0.3",
         "expo-image": "~55.0.3",
+        "expo-insights": "~55.0.5",
         "expo-linking": "~55.0.3",
         "expo-router": "~55.0.0-beta.4",
         "expo-splash-screen": "~55.0.3",
@@ -852,6 +853,8 @@
 
     "expo-dev-menu-interface": ["expo-dev-menu-interface@55.0.1", "", { "peerDependencies": { "expo": "*" } }, "sha512-FkNtwq1q6NmYoy28pj+ZLuHmirJgc039pQbJ167MZJIaprLcMN1yy67qA7xBHK+FNJ8AN8kGCtMTPByg5UC72A=="],
 
+    "expo-eas-client": ["expo-eas-client@55.0.2", "", {}, "sha512-fjOgSXaZFBK2Xmzn/uw0DTF3BsYv97JEa4PYXXqVCEvNJPwJB1cV1eX6Xyq6iKGIhMPH9k62sOc+oUdt094WCw=="],
+
     "expo-file-system": ["expo-file-system@55.0.3", "", { "peerDependencies": { "expo": "*", "react-native": "*" } }, "sha512-kwOQdeAD1ybw5xBA6+k/es/utW7YOrhD03bvaFFBs6ARLE97Z4CYp7k7TEmO+E2gWMwdsBVV+wkOuaSJyzErFQ=="],
 
     "expo-font": ["expo-font@55.0.3", "", { "dependencies": { "fontfaceobserver": "^2.1.0" }, "peerDependencies": { "expo": "*", "react": "*", "react-native": "*" } }, "sha512-DSyh0gzbVii5+Nb/0pAP3bL+CrB9u1N3YeKTx4wXQT8KUnuOlI4A0sEHIO25MfFpjjtovDn0WGzAtimbPkvJmg=="],
@@ -859,6 +862,8 @@
     "expo-glass-effect": ["expo-glass-effect@55.0.3", "", { "peerDependencies": { "expo": "*", "react": "*", "react-native": "*" } }, "sha512-MM4Somb+xDL1JCgjJk1Vmm5uJysVMv0RLo9U5MQJJ2y/xr3+ardtAOn4kWIiTywNxH00tnJmYzJKXHoO645zXw=="],
 
     "expo-image": ["expo-image@55.0.3", "", { "dependencies": { "sf-symbols-typescript": "^2.2.0" }, "peerDependencies": { "expo": "*", "react": "*", "react-native": "*", "react-native-web": "*" }, "optionalPeers": ["react-native-web"] }, "sha512-u/Mz/5lrzx+Qoo5yklJkPgMSXTEwB5oorhutucE8KSVBaKZMTdU7Tlmiw+hkiA2FSIADT4h2wA2wn6H43vdHxA=="],
+
+    "expo-insights": ["expo-insights@55.0.5", "", { "dependencies": { "expo-eas-client": "~55.0.2" }, "peerDependencies": { "expo": "*" } }, "sha512-s7Tc/cm+4hWlujPtY2IZOm6O1Vkb6bDTLhd+mURFiE+pHM0cvZfHVfZmkAHn00hNsxlCLHS5N7EAIv6wY53IEg=="],
 
     "expo-json-utils": ["expo-json-utils@55.0.0", "", {}, "sha512-aupt/o5PDAb8dXDCb0JcRdkqnTLxe/F+La7jrnyd/sXlYFfRgBJLFOa1SqVFXm1E/Xam1SE/yw6eAb+DGY7Arg=="],
 
